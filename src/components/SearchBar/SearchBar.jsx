@@ -23,7 +23,7 @@ const SearchBar = ({ onSearch }) => {
           name="topic"
           autoComplete="off"
           autoFocus
-          placeholder="Search images and photos"
+          placeholder="Enter movie name"
           className={css.input}
         />
         <button type="submit" className={css.button}>
