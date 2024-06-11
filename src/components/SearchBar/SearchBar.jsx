@@ -18,9 +18,6 @@ const SearchBar = ({ onSearch }) => {
   return (
     <header className={css.searchBar}>
       <form className={css.form} onSubmit={handleSubmit}>
-        <button type="submit" className={css.button}>
-          Search
-        </button>
         <input
           type="text"
           name="topic"
@@ -29,6 +26,9 @@ const SearchBar = ({ onSearch }) => {
           placeholder="Search images and photos"
           className={css.input}
         />
+        <button type="submit" className={css.button}>
+          Search
+        </button>
         <Toaster />
       </form>
     </header>

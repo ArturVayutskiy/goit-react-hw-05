@@ -1,0 +1,24 @@
+.title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  color: #0ca14f;
+}
+
+.list {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.textMessage {
+  max-width: min-content;
+}
+
+.img {
+  width: 250px;
+  height: 375px;
+}

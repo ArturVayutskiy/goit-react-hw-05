@@ -1,0 +1,21 @@
+.nav {
+  display: flex;
+  gap: 22px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
+  font-size: large;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.isActive {
+  color: rgb(236, 77, 247);
+}

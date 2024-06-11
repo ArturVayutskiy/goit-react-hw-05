@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.country {
+  margin-bottom: 20px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.overview {
+  margin-bottom: 20px;
+  align-content: baseline;
+}
+
+.poster {
+  float: left;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.genres_title {
+  color: #0ca14f;
+}
+
+.genres_list {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+.span {
+  font-size: large;
+  font-weight: 700;
+  color: #0ca14f;
+}
+
+.links {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  margin-left: 20px;
+  font-size: large;
+}
+
+.backBtn {
+  margin-left: 20px;
+  font-size: large;
+}

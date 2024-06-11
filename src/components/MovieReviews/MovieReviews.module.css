@@ -1,0 +1,28 @@
+.title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  color: #0ca14f;
+}
+
+.list {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  list-style: none;
+  margin-right: 20px;
+}
+
+.author {
+  margin-bottom: 10px;
+  font-size: larger;
+}
+
+.comment {
+  font-size: small;
+  margin-bottom: 30px;
+}
+
+.textMessage {
+  margin-bottom: 20px;
+}
