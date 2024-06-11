@@ -1,9 +1,9 @@
-import { ErrorMessage } from "formik";
 import MovieList from "../../components/MovieList/MovieList";
 import { Oval } from "react-loader-spinner";
 import { getTrendingMovies } from "../../api/unsplash-api";
 import { useEffect, useState } from "react";
 import css from "./HomePage.module.css";
+import ErrorMessage from "../../components/ErrorMessage/ErrorMessage";
 
 const HomePage = () => {
   const [movies, setMovies] = useState([]);

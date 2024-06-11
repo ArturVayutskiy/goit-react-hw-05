@@ -4,7 +4,7 @@ import MovieList from "../../components/MovieList/MovieList";
 import { Oval } from "react-loader-spinner";
 import { useSearchParams } from "react-router-dom";
 import SearchBar from "../../components/SearchBar/SearchBar";
-import { ErrorMessage } from "formik";
+import ErrorMessage from "../../components/ErrorMessage/ErrorMessage";
 
 const MoviesPage = () => {
   const [movies, setMovies] = useState([]);
