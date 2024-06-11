@@ -8,8 +8,8 @@ import {
 } from "react-router-dom";
 import { defaultImg, getMovieDetail } from "../../api/unsplash-api";
 import { Oval } from "react-loader-spinner";
-import { ErrorMessage } from "formik";
 import css from "./MovieDetailsPage.module.css";
+import ErrorMessage from "../../components/ErrorMessage/ErrorMessage";
 
 const MovieDetailsPage = () => {
   const { movieId } = useParams();

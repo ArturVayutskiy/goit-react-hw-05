@@ -1,3 +1,3 @@
-export default function ErrorMessage({ message }) {
-  return <div>{message}</div>;
+export default function ErrorMessage() {
+  return <div>Something went wrong...Try to reload the page!</div>;
 }
